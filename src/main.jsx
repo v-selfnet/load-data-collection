@@ -9,6 +9,7 @@ import Home from './components/Home';
 import ContextApi from './components/ContextApi';
 import Loader from './components/Loader';
 import UseEffect from './components/UseEffect';
+import Axios from './components/Axios';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: 'useeffect',
         element: <UseEffect></UseEffect>
+      },
+      {
+        path: 'axios',
+        element: <Axios></Axios>
       },
     ]
   }
